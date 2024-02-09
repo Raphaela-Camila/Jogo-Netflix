@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troca palavras</title>
+    <link rel="stylesheet" href="TrocaPalavra.css">
+</head>
+<body>
+
+    <header>
+        <div id="header">
+            <img id="logo" src="Imagens/logo1.png" alt=""> 
+
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="Ojogo.html">Stranger Things</a></li>
+                    <li><a href="TrocaPalavra.html">Troca Palavras</a></li>
+                    <li><a href="JogoDaVelha.html">Jogo da Velha</a></li>
+                    <li><a href="jogoForca.html">Jogo da forca</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <h1>Jogo Troca Netflix - Filmes</h1>
+        <div class="jogo">
+            <br>
+            <h3>Digite uma palavra para criar sua versão do Filme</h3>
+            <br>
+            <p>Amigos não <strong id="palavra_1">mentem</strong> </p>
+
+            <p>As vezes você só precisa seguir o seu <strong id="palavra_2"> coração </strong> </p>
+
+            <p>Mistério em <strong id="palavra_3">Paris</strong> </p>
+
+            <p>O que acontece em <strong id="palavra_4">Vegas</strong> fica em segredo</p>
+
+            <p>Para todos <strong id="palavra_5">garotos</strong> que já amei</p>
+            <br>
+            <div class="digitar"><input id="palavra" type="text" placeholder="Digite sua palavra"></div>
+            <br>
+            <br>
+            <button onclick="TrocaPalavra()">Jogar</button>
+            <br>
+            <br>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            &copy; 2023 Página de Jogos - Todos os direitos reservados<br>
+        </div>
+    </footer>
+    <script src="troca.js"></script>
+</body>
+</html>

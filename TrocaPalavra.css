@@ -1,0 +1,96 @@
+body{
+    font-family: sans-serif;
+    background-image: url(Imagens/fundoTroca.png);
+    color: white;
+    margin: 0;
+}
+/* Menu */
+#header {
+    background-color: #000000;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 250px;
+    height: 120px;
+    margin-left: 50px;
+}
+
+#menu {
+    text-align: center;
+   
+}
+
+#menu li {
+    display: inline;
+    margin: 10px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+li a{
+    display: block;
+}
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #db0000;
+    
+}
+
+#menu a:hover {
+    background-color: #ca0303;
+    color: #000;
+}
+
+/* Conteudo */
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+.jogo{
+    color: white;
+    background-color: rgb(109, 13, 13);
+    border-radius: 10px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(238, 19, 19);
+    padding: 10px;
+}
+
+/* Rodapé */
+#footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 100px;
+}
+
+#tudo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 10px;
+}

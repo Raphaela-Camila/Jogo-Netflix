@@ -1,0 +1,93 @@
+
+body {
+    margin: 0;
+    background-color: #bebbbb;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+/* Menu */
+#header {
+    background-color: #000000;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 250px;
+    height: 120px;
+    margin-left: 50px;
+}
+
+#menu {
+    text-align: center;
+   
+}
+
+#menu li {
+    display: inline;
+    margin: 10px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+li a{
+    display: block;
+}
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #db0000;
+    
+}
+
+#menu a:hover {
+    background-color: #ca0303;
+    color: #000;
+}
+  /* Meio */
+main{
+    background-image: url(Imagens/fundoTela.gif);
+    background-size: 1900px;
+}
+h1{
+    text-align: center;
+    margin-top: 80px;
+}
+.iniciar a{
+    text-decoration: none;
+    background-color: rgb(230, 38, 38);
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin-top: 750px;
+    margin-left: 850px;
+}
+/* Rodapé */
+#footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    
+}
+#tudo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 10px;
+}

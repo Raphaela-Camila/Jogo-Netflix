@@ -1,0 +1,155 @@
+body{
+    background-image: url();
+    background-size: 1900px;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* Menu */
+#header {
+    background-color: #000000;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 250px;
+    height: 120px;
+    margin-left: 50px;
+}
+
+#menu {
+    text-align: center;
+   
+}
+
+#menu li {
+    display: inline;
+    margin: 10px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+li a{
+    display: block;
+}
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #db0000;
+    
+}
+
+#menu a:hover {
+    background-color: #ca0303;
+    color: #000;
+}
+/* Conteudo */
+#main{
+    margin: 40px;
+}
+h2{
+    text-align: center;
+    color: rgb(221, 14, 14);
+    font-weight: bolder;
+}
+#jogo{
+    width: 603px;
+    height: 603px;    
+    border: solid 3px;
+    display: inline-block;   
+    background-color: white;
+    margin: 60px;
+    float: left; 
+}
+#resultado{
+    margin-left: 30px;
+    float: left;
+}
+#respostas{
+    font-size: 30;
+    font-style: italic;
+    font-weight: bold;
+    color: #ff0000;
+}
+.linha{
+    height: 200px;
+    border-bottom: solid 1px;
+}
+.casa{
+    width: 200px;
+    height: 100%;
+    border-right: solid 1px;
+    float: left;
+}
+.xis{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.bola{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.velha{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+input[type = button], input[type = submit], input[type = reset] {
+    background-color: #000000;
+    background-image: linear-gradient(to bottom, #ff0101, #b1050554);
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 40px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #000000 1px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type = button]:hover {
+    background: #fd0e0e;
+    background-image: linear-gradient(to bottom, #4c545f, #ff0000);
+    text-decoration: none;
+}
+#casa0, #casa1, #casa2, #casa3, #casa4, #casa5{
+    border-bottom: solid 1px;
+}
+.geral{
+    margin-left: 20%;
+}
+ /* rodapé */
+
+ #footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 400px;
+    color: white;
+}
+
+#tudo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 10px;
+}

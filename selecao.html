@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de personagem</title>
+    <link rel="stylesheet" href="selecao.css">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <img id="logo" src="Imagens/logo1.png" alt=""> 
+
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="Ojogo.html">Stranger Things</a></li>
+                    <li><a href="TrocaPalavra.html">Troca Palavras</a></li>
+                    <li><a href="JogoDaVelha.html">Jogo da Velha</a></li>
+                    <li><a href="jogoForca.html">Jogo da forca</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </header>
+
+   <main>
+
+    <div id="selecao-personagem">
+        <h1>Escolha seu personagem</h1>
+        <br>
+        <nav>
+            <div>
+                <a href="#" onclick="DadosPersonagem(0)">
+                    <img src="Imagens/steve.jpg" alt="">
+                    <p>Steve</p>
+                </a>
+            </div>
+            <div>
+                <a href="#" onclick="DadosPersonagem(1)">
+                    <img src="Imagens/robbie.jpg" alt="">
+                    <p>Robbie</p>
+                </a>
+            </div>
+            <div>
+                <a href="#" onclick="DadosPersonagem(2)">
+                    <img src="Imagens/irmaoWil.jpg" alt="">
+                    <p>Jonathan</p>
+                </a>
+            </div>
+            <div>
+                <a href="#" onclick="DadosPersonagem(3)">
+                    <img src="Imagens/nancy.jpg" alt="">
+                    <p>Nancy</p>
+                </a>
+            </div>
+            <div>
+                <a href="#" onclick="DadosPersonagem(4)">
+                    <img src="Imagens/billy.jpg" alt="">
+                    <p>Billy</p>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <div id="resultado" >
+        <div id="conteudo-img"></div>
+        <div id="conteudo"></div>
+    </div>
+
+
+   </main>
+
+   <div id="selecionar">
+    <a href="parte2.html">Selecionar</a>
+   </div>
+    <footer>
+        <div id="footer">
+            &copy; 2023 Página de Jogos - Todos os direitos reservados<br>
+        </div>
+    </footer>
+
+    <script src="selecao.js"></script>
+</body>
+</html>

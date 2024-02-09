@@ -1,0 +1,38 @@
+{
+    "Personagem":[
+        {
+            "img":"<img src='Imagens/steveG.jpg' >",
+            "nome":"Steve Harrington",
+            "descricao":"Steve Harrington é um estudante na Hawkins High School. Primeiramente ele se demonstra encantador, mas arrogante.",
+            "habilidades":"Atleta"
+        },
+    
+        {
+            "img":"<img src='Imagens/robinG.jpg' >",
+            "nome":"Robin",
+            "descricao":"Robin Buckley é uma das sorveteiras do Scoops Ahoy que trabalho ao lado de Steve Harrington.",
+            "habilidades":"Inteligente"
+        },
+   
+        {
+            "img":"<img src='Imagens/JonathanG.jpg' >",
+            "nome":"Jonathan",
+            "descricao":"Filho mais velho de Joyce e Lonnie Byers, e irmão e amigo de Will Byers.",
+            "habilidades":"Fotógrafo"
+        },
+   
+        {
+            "img":"<img src='Imagens/nancyG.jpg' >",
+            "nome":"Nancy",
+            "descricao":"Filha de Ted e Karen Wheeler, nascida e criada em Hawkins. É a irmã mais velha de Mike e Holly.",
+            "habilidades":"Esperta"
+        },
+
+        {
+            "img":"<img src='Imagens/billyG.jpg' >",
+            "nome":"Billy",
+            "descricao":"Ele era o meio-irmão mais velho de Max Mayfield, que muitas vezes maltrata os outros.",
+            "habilidades":"Corajoso"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+/* Começo */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #fff;
+}
+
+/* Menu */
+#header {
+    background-color: #000000;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 250px;
+    height: 120px;
+    margin-left: 50px;
+}
+
+#menu {
+    text-align: center;
+   
+}
+
+#menu li {
+    display: inline;
+    margin: 10px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+li a{
+    display: block;
+}
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #db0000;
+    
+}
+
+#menu a:hover {
+    background-color: #ca0303;
+    color: #000;
+}
+/* Meio do jogo */
+main{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(Imagens/resumo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+h2{
+    background-color: rgba(68, 80, 105, 0.658);
+    border-radius: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 80px;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.botao a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(41, 47, 99);
+    padding: 10px;
+}
+/* Rodapé */
+#footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    
+}
+#tudo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 10px;
+}
